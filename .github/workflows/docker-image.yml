@@ -28,7 +28,7 @@ jobs:
         docker build --tag miguetheking/docker-graphql:0.0.2 .
     - name: Push Docker Image
       run: |
-        docker push miguetheking/docker-graphql:0.0.2 .
+        docker push miguetheking/docker-graphql:0.0.2
       
     
     # - name: Build the Docker image
